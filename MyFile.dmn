@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_F9D347C5-6469-4EC9-B8E8-C3E1D16964E5" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_7A41FC4C-C36B-4A66-BCBF-B5460D1EB3C4" name="Untitled" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_F9D347C5-6469-4EC9-B8E8-C3E1D16964E5">
   <dmn:extensionElements/>
   <dmn:inputData id="_536E6A9C-1E64-4007-BCF3-DFDE8F0E9657" name="InputData-1">
@@ -8,6 +9,10 @@
     <dmn:extensionElements/>
     <dmn:variable id="_F49E86ED-495D-4F37-B3A8-13E595F8CB45" name="InputData-2"/>
   </dmn:inputData>
+  <dmn:knowledgeSource id="_429885B7-C8DD-4DA7-AB04-2B358D77B77B" name="KnowledgeSource-1" locationURI="">
+    <dmn:extensionElements/>
+    <dmn:type/>
+  </dmn:knowledgeSource>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_8495263E-1757-4170-B939-50EE6CB9889D" name="DRG">
       <di:extension>
@@ -29,6 +34,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="654" y="125" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_429885B7-C8DD-4DA7-AB04-2B358D77B77B" dmnElementRef="_429885B7-C8DD-4DA7-AB04-2B358D77B77B" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="609" y="323" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
     </dmndi:DMNDiagram>
