@@ -8,6 +8,10 @@
     <dmn:extensionElements/>
     <dmn:variable id="_F49E86ED-495D-4F37-B3A8-13E595F8CB45" name="InputData-2"/>
   </dmn:inputData>
+  <dmn:inputData id="_B9465391-6346-4CF8-8ABB-E275C20E5F83" name="InputData-3">
+    <dmn:extensionElements/>
+    <dmn:variable id="_E3EC64B9-2E3C-4144-883A-995F4761153C" name="InputData-3"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram id="_8495263E-1757-4170-B939-50EE6CB9889D" name="DRG">
       <di:extension>
@@ -29,6 +33,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="654" y="125" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-drg-_B9465391-6346-4CF8-8ABB-E275C20E5F83" dmnElementRef="_B9465391-6346-4CF8-8ABB-E275C20E5F83" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="577" y="263" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
     </dmndi:DMNDiagram>
